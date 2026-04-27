@@ -11,7 +11,7 @@
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Examples](#-examples) • [Documentation](#-documentation) • [Integrations](#-integrations)
 
-<img src="https://via.placeholder.com/800x400/0f172a/5DCAA5?text=AgentWire+Dashboard+Preview" alt="AgentWire Dashboard" width="800"/>
+<img src="examples/assets/Dash.png" alt="AgentWire Dashboard" width="800"/>
 
 *Make the invisible visible. See every message, every agent, every decision.*
 
