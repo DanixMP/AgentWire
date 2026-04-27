@@ -1,0 +1,39 @@
+[project]
+name = "agentwire"
+version = "0.1.0"
+description = "Real-time message bus and inspector for multi-agent LLM systems"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "AgentWire Contributors" }
+]
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+    "pydantic>=2.0",
+    "aiosqlite>=0.19",
+    "httpx>=0.27",
+    "typer>=0.12",
+    "rich>=13",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+postgres = ["asyncpg>=0.29"]
+langchain = ["langchain>=0.2"]
+autogen = ["pyautogen>=0.2"]
+crewai = ["crewai>=0.28"]
+all = ["agentwire[postgres,langchain,autogen,crewai]"]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "httpx>=0.27"]
+
+[project.scripts]
+agentwire = "agentwire.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
