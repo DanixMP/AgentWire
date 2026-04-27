@@ -389,7 +389,7 @@ pytest tests/ --cov=agentwire --cov-report=html
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/agentwire.git
+git clone https://github.com/DanixMP/AgentWire.git
 cd agentwire
 
 # Install in development mode
@@ -480,10 +480,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 📖 [Documentation](docs/)
-- 💬 [GitHub Issues](https://github.com/yourusername/agentwire/issues)
-- 🐦 [Twitter](https://twitter.com/agentwire)
-- 📧 [Email](mailto:support@agentwire.dev)
+- 📖 [Documentation](https://github.com/DanixMP/AgentWire/tree/main/docs)
+- 💬 [GitHub Issues](https://github.com/DanixMP/AgentWire/issues)
+- 🐦 [Twitter](https://twitter.com/DanixMP)
+- 📧 [Email](mailto:danixmp@gmail.com)
 
 ---
 
@@ -491,6 +491,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Made with ❤️ for the multi-agent AI community**
 
-[⭐ Star us on GitHub](https://github.com/yourusername/agentwire) • [🐦 Follow on Twitter](https://twitter.com/agentwire)
+[⭐ Star us on GitHub](https://github.com/DanixMP/AgentWire) • [🐦 Follow on Twitter](https://twitter.com/DanixMP)
 
 </div>
