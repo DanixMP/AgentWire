@@ -32,7 +32,7 @@ Multi-agent systems are **opaque black boxes**. When your 5-agent pipeline produ
 ## ✨ The Solution
 
 ```python
-pip install agentwire
+pip install agentwire-mcp
 agentwire start
 
 # Wrap your agents (one line each)
@@ -103,7 +103,7 @@ SQLite by default. No Docker, no Postgres, no signup required. `pip install && a
 ### Installation
 
 ```bash
-pip install agentwire
+pip install agentwire-mcp
 ```
 
 ### Start the Server
