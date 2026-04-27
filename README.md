@@ -482,8 +482,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - 📖 [Documentation](https://github.com/DanixMP/AgentWire/tree/main/docs)
 - 💬 [GitHub Issues](https://github.com/DanixMP/AgentWire/issues)
-- 🐦 [Twitter](https://twitter.com/DanixMP)
-- 📧 [Email](mailto:danixmp@gmail.com)
+- 📧 [Email](mailto:mahdipur97@gmail.com)
 
 ---
 
